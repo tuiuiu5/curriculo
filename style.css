@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(1, 37, 1);
+}
+
+header{
+    display: flex;
+    /* flex-direction: row; */
+    border: 2px solid black;
+    margin: 10px;
+    width: 98.3%;
+    height: 100px;
+    background-color: rgb(46, 46, 170);
+}
+
+/* .container{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 10px;
+} */
+
+.photo{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 10px;
+    
+}
+
+.photoicon{
+    border-radius: 50%;
+    width: 80px;
+}
+
+.name {
+    width: 92.7%;
+    height: 3rem;
+    border: 1px solid black;
+    margin-top: 25px;
+    background-color: white;
+}
+
+.name h1{
+    margin-top: 5px;
+    text-align: center;
+    
+}
+
+body{
+    margin: 10px;
+    padding: 0;
+    height: 100%;
+    border: 1px solid black;
+}
+.BodyContainer{
+    justify-content: space-around;
+    border: 1px solid black;
+    width: 99%;
+    height: 200vh;
+    background-color: white;
+    margin: 10px;
+}
+
+.CurriculumContainer{
+    /* display: flex; */
+    margin: 10px;
+    width: 98.3%;
+    height: 6vh;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    background-color: rgb(46, 46, 170);
+}
+
+.CurriculumContainer h1{
+    position: relative;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.colums{
+    display: flex;
+    margin: 10px;
+}
+
+.colums h2{
+    text-align: center;
+}
+.colums h4{
+    text-align: left;
+}
+
+.left{
+    /* margin-left: 10px; */
+    /* flex: 4; */
+    /* display: flex; */
+    /* flex: 1; */
+    width: 20%;
+    height: 300px;
+    border: 1px solid black;
+    background-color: rgb(46, 46, 170);
+    /* margin: 10px; */
+}
+
+.linkedin__icon{
+    margin: 10px;
+    text-align: left;
+}
+span{
+    color: black;
+}
+
+.mid{
+    /* margin: 10px; */
+    flex: 6;
+    width: 55%;
+    height: 900px;
+    border: 1px solid black;
+    margin: 10px;
+    margin-top: 0px;
+    background-color: #ffffff;
+    /* margin: 10px; */
+    
+}
+
+.right{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    flex: 2;
+    margin-right: 0.2%;
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+    /* margin: 10px; */
+    background-color: rgb(46, 46, 170);
+}
+
+.right h4{
+    /* align-items: center; */
+    /* flex-direction: column; */
+    /* display: flex; */
+    padding: 10px;
+    /* text-align: center; */
+}
